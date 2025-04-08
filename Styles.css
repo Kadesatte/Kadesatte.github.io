@@ -1,0 +1,1499 @@
+.logo {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    top: 72px;
+    left: 374px;
+    font-family: Oswald;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: dodgerblue;
+}
+
+.nav-location {
+    position: absolute;
+    top: 35px;
+    left: 373px;
+    display: flex;
+}
+
+.location-link {
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+.nav-location:hover .location-link {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.nav-messages {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    top: 35px;
+    left: 1100px;
+    display: flex;
+}
+
+.nav-messages svg {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 3px;
+    fill: black;
+    stroke: black;
+}
+
+.nav-messages:hover {
+    color: dodgerblue;
+}
+
+.nav-messages:hover svg {
+    fill: dodgerblue;
+    stroke: dodgerblue;
+}
+
+.nav-messages .messages-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-messages .messages-link:hover {
+    color: dodgerblue;
+}
+
+.nav-favorites {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    top: 35px;
+    left: 1250px;
+    display: flex;
+}
+
+.nav-favorites svg {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.nav-favorites:hover {
+    color: dodgerblue;
+}
+
+.nav-favorites:hover svg {
+    fill: dodgerblue;
+    stroke: dodgerblue;
+}
+
+.nav-favorites .favorites-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-favorites .favorites-link:hover {
+    color: dodgerblue;
+}
+
+.nav-support {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    top: 35px;
+    left: 1400px;
+    display: flex;
+}
+
+.nav-support svg {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.nav-support:hover {
+    color: dodgerblue;
+}
+
+.nav-support:hover svg {
+    fill: dodgerblue;
+    stroke: dodgerblue;
+}
+
+.nav-support .support-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-support .support-link:hover {
+    color: dodgerblue; 
+}
+
+.link-announcement {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 70px;
+    border-radius: 6px;
+    color: white;
+    left: 1245px;
+    top: 75px;
+    transition: 0.2s;
+}
+
+.link-announcement:hover {
+    background-color: dodgerblue;
+}
+
+.link-autorization {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: white;
+    border-color: black;
+    border: 1px solid black;
+    padding: 7px 20px;
+    border-radius: 6px;
+    left: 1140px;
+    top: 75px;
+    transition: 0.2s;
+}
+
+.link-autorization:hover {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    color: white;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-box  {
+    position: absolute;
+    padding: 8px;
+    width: 400px;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+    transition: 0.2s;
+    left: 630px;
+    top: 75px;
+}
+
+.search-btn {
+    position: absolute;
+    padding: 8px 15px;
+    background-color: steelblue;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    height: 34px;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+    font-family: Arial;
+    left: 1045px;
+    top: 75px;
+}
+
+.search-box:hover {
+    border-color: dodgerblue;
+}
+
+.search-btn:hover {
+    background-color: dodgerblue;
+}
+
+.category-btn {
+    position: absolute;
+    left: 520px;
+    top: 75px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.category-btn:hover {
+    background-color: dodgerblue;
+}
+
+.banner1 {
+    position: absolute;
+    width: 608px;
+    height: 200px;
+    background-color: lightskyblue;
+    top: 150px;
+    left: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.banner1:hover .txt-banner1 {
+    color: black;
+}
+
+.banner1:hover {
+    filter: brightness(94%);
+}
+
+.scammer-banner1 {
+    position: absolute;
+    width: 210px;
+    height: 200px;
+    left: 360px;
+    top: 1px;
+}
+
+.txt-banner1 {
+    position: absolute;
+    left: 40px;
+    top: 110px;
+    color: dimgrey;
+    font-family: Oswald;
+    font-size: 25px;
+    transition: 0.2s;
+
+}
+
+.txt-banner2 {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    color: dimgrey;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.banner2 {
+    position: absolute;
+    width: 608px;
+    height: 200px;
+    background-color: Khaki;
+    top: 150px;
+    left: 950px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.banner2:hover .txt-banner3 {
+    color: black;
+}
+
+.banner2:hover {
+    filter: brightness(92%);
+}
+
+.buy-banner2 {
+    position: absolute;
+    width: 210px;
+    height: 200px;
+    left: 360px;
+    top: 1px;
+}
+
+.txt-banner3 {
+    position: absolute;
+    left: 40px;
+    top: 110px;
+    color: dimgrey;
+    font-family: Oswald;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.txt-banner4 {
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    color: dimgrey;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.txt1 {
+    position: absolute;
+    color: black;
+    font-family: Oswald;
+    font-size: 40px;
+    top: 400px;
+    left: 270px;
+}
+
+.txt2 {
+    position: absolute;
+    color: black;
+    font-family: Oswald;
+    font-size: 40px;
+    top: 770px;
+    left: 270px;
+}
+
+.category1 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    border-radius: 50%;
+    left: 280px;
+    top: 530px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Auto-category1 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 18px;
+    left: -10px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.txt-category1 {
+    position: absolute;
+    top: 155px;
+    left: 15px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial; 
+    cursor: pointer;
+}
+
+.category1:hover {
+    background-color: #f18012;
+    filter: brightness(92%);
+}
+
+.category1:hover .txt-category1 {
+    color: #f18012;
+}
+
+.category2 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    border-radius: 50%;
+    left: 555px;
+    top: 530px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Immovables-category2 {
+    position: absolute;
+    width: 210px;
+    height: 160px;
+    top: -2px;
+    left: -35px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.txt-category2 {
+    position: absolute;
+    top: 155px;
+    left: 5px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.category2:hover {
+    background-color: #6c3432;
+}
+
+.category2:hover .txt-category2 {
+    color: #6c3432;
+}
+
+.category3 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    border-radius: 50%;
+    left: 835px;
+    top: 530px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Vacancies-category3 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: -2px;
+    left: -10px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.txt-category3 {
+    position: absolute;
+    top: 155px;
+    left: 33px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.category3:hover {
+    background-color: cornflowerblue;
+}
+
+.category3:hover .txt-category3 {
+    color: cornflowerblue;
+}
+
+.category4 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    border-radius: 50%;
+    left: 1129px;
+    top: 530px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Wardrobe-category4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    left: -3px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.txt-category4 {
+    position: absolute;
+    top: 155px;
+    left: 33px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.category4:hover {
+    background-color: #e4b429;
+}
+
+.category4:hover .txt-category4 {
+   color: #e4b429;
+}
+
+.category5 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: grey;
+    border-radius: 50%;
+    left: 1410px;
+    top: 530px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Services-category5 {
+    position: absolute;
+    width: 165px;
+    height: 155px;
+    top: 10px;
+    left: -28px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.txt-category5 {
+    position: absolute;
+    top: 155px;
+    left: 46px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.category5:hover {
+    background-color: #a31d1e;
+}
+
+.category5:hover .txt-category5 {
+    color: #a31d1e;
+}
+
+.Announcements {
+    position: absolute;
+    top: 900px;
+    left: 400px;
+    cursor: pointer;
+}
+
+
+.Phone-Deliviry {
+    position: absolute;
+    top: -50px;
+    left: 13px;
+    width: 40px;
+    height: 40px;
+}
+
+.Phone {
+    position: absolute;
+    width: 260px;
+    height: 210px;
+    left: 12px;
+    border-radius: 10px;
+}
+
+.Phone-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 60px;
+    border-radius: 6px;
+    color: white;
+    left: 100px;
+    top: 75px;
+    transition: 0.2s;
+}
+
+.Phone-name {
+    position: absolute;
+    font-family: Oswald;
+    top: 225px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Phone-price {
+    position: absolute;
+    font-family: Oswald;
+    top: 270px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 250;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Phone-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 50px;
+    border-radius: 6px;
+    color: white;
+    left: 76px;
+    top: 325px;
+    transition: 0.2s;
+}
+
+.Text-Deliviry {
+    position: absolute;
+    font-family: Arial;
+    top: -35px;
+    left: 70px;
+    font-size: 20px;
+    font-weight: 10;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Phone-button:hover {
+    background-color: dodgerblue;
+}
+
+.Phone-Container:hover .Phone-button {
+    background-color: dodgerblue;
+}
+
+.Dresser-Deliviry {
+    position: absolute;
+    top: -50px;
+    left: 418px;
+    width: 40px;
+    height: 40px;
+}
+
+.Text-Deliviry2 {
+    position: absolute;
+    font-family: Arial;
+    top: -35px;
+    left: 475px;
+    font-size: 20px;
+    font-weight: 10;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Dresser {
+    position: absolute;
+    width: 260px;
+    height: 210px;
+    left: 415px;
+    border-radius: 10px;
+}
+
+.Dresser-name {
+    position: absolute;
+    font-family: Oswald;
+    top: 225px;
+    left: 417px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Dresser-price {
+    position: absolute;
+    font-family: Oswald;
+    top: 270px;
+    left: 417px;
+    font-size: 25px;
+    font-weight: 250;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Dresser-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 60px;
+    border-radius: 6px;
+    color: white;
+    left: 470px;
+    top: 325px;
+    transition: 0.2s;
+}
+
+.Dresser-container:hover .Dresser-button {
+    background-color: dodgerblue;
+}
+
+.Auto {
+    position: absolute;
+    width: 260px;
+    height: 210px;
+    left: 800px;
+    border-radius: 10px;
+}
+
+.Auto-name {
+    position: absolute;
+    font-family: Oswald;
+    top: 225px;
+    left: 800px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Auto-price {
+    position: absolute;
+    font-family: Oswald;
+    top: 270px;
+    left: 800px;
+    font-size: 25px;
+    font-weight: 250;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Auto-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 60px;
+    border-radius: 6px;
+    color: white;
+    left: 850px;
+    top: 325px;
+    transition: 0.2s;
+}
+
+.Auto-container:hover .Auto-button {
+    background-color: dodgerblue;
+}
+
+.Sneakers {
+    position: absolute;
+    width: 260px;
+    height: 230px;
+    left: 12px;
+    top: 450px;
+    border-radius: 10px;
+}
+
+.Sneakers-name {
+    position: absolute;
+    font-family: Oswald;
+    top: 695px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Sneakers-price {
+    position: absolute;
+    font-family: Oswald;
+    top: 740px;
+    left: 20px;
+    font-size: 25px;
+    font-weight: 250;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Sneakers-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 50px;
+    border-radius: 6px;
+    color: white;
+    left: 76px;
+    top: 795px;
+    transition: 0.2s;
+}
+
+.Sneakers-container:hover .Sneakers-button {
+    background-color: dodgerblue;
+}
+
+.Notebook-Deliviry {
+    position: absolute;
+    top: 395px;
+    left: 418px;
+    width: 40px;
+    height: 40px;
+}
+
+.Text-Deliviry3 {
+    position: absolute;
+    font-family: Arial;
+    top: 410px;
+    left: 475px;
+    font-size: 20px;
+    font-weight: 10;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Notebook {
+    position: absolute;
+    width: 270px;
+    height: 230px;
+    top: 450px;
+    left: 415px;
+    border-radius: 10px;
+}
+
+.Notebook-name {
+    position: absolute;
+    font-family: Oswald;
+    top: 694px;
+    left: 417px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Notebook-price {
+    position: absolute;
+    font-family: Oswald;
+    top: 738px;
+    left: 417px;
+    font-size: 25px;
+    font-weight: 250;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Notebook-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 60px;
+    border-radius: 6px;
+    color: white;
+    left: 470px;
+    top: 795px;
+    transition: 0.2s;
+}
+
+.Notebook-container:hover .Notebook-button {
+    background-color: dodgerblue;
+}
+
+.Sweatshirt {
+    position: absolute;
+    width: 260px;
+    height: 230px;
+    left: 800px;
+    top: 450px;
+    border-radius: 10px;
+}
+
+.Sweatshirt-name {
+    position: absolute;
+    font-family: Oswald;
+    top: 694px;
+    left: 800px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Sweatshirt-price {
+    position: absolute;
+    font-family: Oswald;
+    top: 740px;
+    left: 800px;
+    font-size: 25px;
+    font-weight: 250;
+    white-space: nowrap;
+    display: inline;
+}
+
+.Sweatshirt-button {
+    position: absolute;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: steelblue;
+    padding: 8px 60px;
+    border-radius: 6px;
+    color: white;
+    left: 850px;
+    top: 795px;
+    transition: 0.2s;
+}
+
+.Sweatshirt-container:hover .Sweatshirt-button {
+    background-color: dodgerblue;
+}
+
+.footer {
+    position: absolute;
+    top: 900px;
+}
+
+.Astana {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1800px;
+}
+
+.chart-container {
+    position: absolute;
+    width: 900px;
+    top: 1755px;
+    left: 500px;
+}
+
+.Astana:hover {
+    text-decoration: underline;
+}
+
+.Almata {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1840px;
+}
+
+.Almata:hover {
+    text-decoration: underline;
+}
+
+.Petropavlovsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1880px;
+}
+
+.Petropavlovsk:hover {
+    text-decoration: underline;
+}
+
+.Aktobe {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1920px;
+}
+
+.Aktobe:hover {
+    text-decoration: underline;
+}
+
+.Zhezkazgan {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 1960px;
+}
+
+.Zhezkazgan:hover {
+    text-decoration: underline;
+}
+
+.Kokshetau {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 2000px;
+}
+
+.Kokshetau:hover {
+    text-decoration: underline;
+}
+
+.Kostanay {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 2040px;
+}
+
+.Kostanay:hover {
+    text-decoration: underline;
+}
+
+.Kyzylorda {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 528px;
+    top: 2080px;
+}
+
+.Kyzylorda:hover {
+    text-decoration: underline;
+}
+
+.Mamlyutka {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1800px;
+}
+
+.Mamlyutka:hover {
+    text-decoration: underline;
+}
+
+.Semey {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1840px;
+}
+
+.Semey:hover {
+    text-decoration: underline;
+}
+
+.Taldykorgan {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1880px;
+}
+
+.Taldykorgan:hover {
+    text-decoration: underline;
+}
+
+.Taraz {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1920px;
+}
+
+.Taraz:hover {
+    text-decoration: underline;
+}
+
+.Temirtau {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 1960px;
+}
+
+.Temirtau:hover {
+    text-decoration: underline;
+}
+
+.Uralsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 2000px;
+}
+
+.Uralsk:hover {
+    text-decoration: underline;
+}
+
+.Ust-Kamenogorsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 2040px;
+}
+
+.Ust-Kamenogorsk:hover {
+    text-decoration: underline;
+}
+
+.Usharal {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 2080px;
+}
+
+.Usharal:hover {
+    text-decoration: underline;
+}
+
+.Khromtau {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1800px;
+}
+
+.Khromtau:hover {
+    text-decoration: underline;
+}
+
+.Shalkar {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1840px;
+}
+
+.Shalkar:hover {
+    text-decoration: underline;
+}
+
+.Shardara {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1880px;
+}
+
+.Shardara:hover {
+    text-decoration: underline;
+}
+
+.Shakhtinsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1920px;
+}
+
+.Shakhtinsk:hover {
+    text-decoration: underline;
+}
+
+.Shymkent {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 1960px;
+}
+
+.Shymkent:hover {
+    text-decoration: underline;
+}
+
+.Shchuchinsk {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 2000px;
+}
+
+.Shchuchinsk:hover {
+    text-decoration: underline;
+}
+
+.All-Cities {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    color: steelblue;
+    text-decoration: none;
+    left: 1305px;
+    top: 2080px;
+}
+
+.All-Cities:hover {
+    color: dodgerblue;
+}
+
+.License {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+    left: 528px;
+    top: 2140px;
+}
+
+.License:hover {
+    color: dodgerblue;
+}
+
+.Help {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+    left: 528px;
+    top: 2180px;
+}
+
+.Help:hover {
+    color: dodgerblue;
+}
+
+.Advertising {
+    position: absolute;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+    left: 528px;
+    top: 2220px;
+    padding-bottom: 50px;
+}
+
+.Advertising:hover {
+    color: dodgerblue;
+}
+
+.Socials {
+    position: absolute;
+    font-family: Arial;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+    left: 920px;
+    top: 2140px;
+}
+
+.VK {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 920px;
+    top: 2180px;
+    cursor: pointer;
+}
+
+.VK:hover {
+    filter: brightness(94%);
+}
+
+.classmates {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 975px;
+    top: 2186px;
+    cursor: pointer;
+}
+
+.classmates:hover {
+    filter: brightness(94%);
+}
+
+.X {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 1020px;
+    top: 2182px;
+    cursor: pointer;
+}
+
+.X:hover {
+    filter: brightness(94%);
+}
+
+.App {
+    position: absolute;
+    font-family: Arial;
+    font-size: 14px;
+    color: dimgray;
+    text-decoration: none;
+    left: 1305px;
+    top: 2140px;
+}
+
+.Google-Play {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: 1305px;
+    top: 2183px;
+    cursor: pointer;
+}
+
+.App-Store {
+    position: absolute;
+    width: 135px;
+    height: auto;
+    left: 1470px;
+    top: 2183px;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .logo {
+        left: 120px;
+        font-size: 22px;
+    }
+
+    .nav-location {
+        left: 50px;
+    }
+
+    .nav-messages {
+        left: 900px;
+    }
+
+    .nav-favorites {
+        left: 1050px;
+    }
+
+    .nav-support {
+        left: 1200px;
+    }
+
+    .link-announcement {
+        left: 1050px;
+    }
+
+    .link-autorization {
+        left: 930px;
+    }
+
+    .category-btn {
+	left: 280px;
+    }
+    
+    .search-box {
+	left: 400px;
+    }
+
+    .search-btn {
+	left: 815px;
+    }
+
+   .link-announcement {
+	left: 1050px;
+	width: 135px;
+	white-space: nowrap;
+    }
+	
+   .support-link {
+	white-space: nowrap;
+    }
+
+   .nav-location {
+	left: 120px;
+    }
+   
+   .banner1 {
+	left: 70px;
+   }
+
+    .banner2 {
+	left: 750px;
+   }
+
+    .txt1 {
+	left: 200px;
+   }
+
+    .category1 {
+	left: 220px;
+   }
+
+    .category2 {
+	left: 485px;
+   }
+
+    .category3 {
+	left: 750px;
+   }
+
+    .category4 {
+	left: 1000px;
+   }
+
+    .category5 {
+	left: 1270px;
+   }
+
+    .txt2 {
+	left: 200px;
+   }
+
+    .Announcements {
+	left: 290px;
+   }
+
+    .footer {
+	left: -180px;
+	white-space: nowrap;
+   }
+
+    .location-link {
+	left: 100px;
+   }
+}
